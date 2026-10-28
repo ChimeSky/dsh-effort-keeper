@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "推理档位记忆器",
+    "description": "按 Provider + Model 记住每个模型上次选择的推理档位，切回该模型时自动恢复。"
+  }
+}

@@ -1,0 +1,6 @@
+# EffortKeeper bundle: one Host-side row. The plugin intercepts the official
+# sessionController.selectModel call, stores the user's effort choices, and
+# restores them for the target model on the next switch.
+- insert:
+    - id: effort-keeper
+      name: dsh-effort-keeper

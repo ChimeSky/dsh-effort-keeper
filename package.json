@@ -1,0 +1,53 @@
+{
+  "name": "dsh-effort-keeper",
+  "version": "1.0.5",
+  "description": "Per-model reasoning-effort memory for DeepSeek Harness: remembers the last explicitly chosen effort for every provider/model pair and restores it when you switch back.",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "reasoning-effort",
+    "model-selection"
+  ],
+  "license": "MIT",
+  "author": "ChimeSky",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChimeSky/dsh-effort-keeper.git"
+  },
+  "homepage": "https://github.com/ChimeSky/dsh-effort-keeper#readme",
+  "bugs": {
+    "url": "https://github.com/ChimeSky/dsh-effort-keeper/issues"
+  },
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "lib/**/*.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "README.en.md",
+    "TEST_REPORT.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "dsh": ">=0.2.1-rc.3 <0.3.0-0"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "build": "node tools/build-vendor.mjs",
+    "verify": "node tools/verify-install.mjs"
+  }
+}

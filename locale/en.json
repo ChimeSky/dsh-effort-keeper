@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "EffortKeeper",
+    "description": "Remembers each model's last reasoning effort and restores it automatically when you switch back."
+  }
+}
