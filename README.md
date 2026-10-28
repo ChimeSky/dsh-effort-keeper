@@ -121,7 +121,7 @@ $dsh = '<DSH 安装目录>\resources\runtime\cli\bin\dsh.cmd'
   '<repo>\vendor\dsh-effort-keeper-1.0.5.tgz'
 ```
 
-也可以直接从 GitHub 安装（会拉取源码，需要有可用的 pnpm 构建授权）：
+也可以直接从 GitHub 安装（纯 JS 包，无需构建，已钉在 `v1.0.5` tag）：
 
 ```powershell
 & $dsh plugin --profile desktop add `
@@ -136,7 +136,7 @@ pwsh -File .\tools\install.ps1
 
 ### 4.3 也可以在插件管理器里安装
 
-在 DSH 的“插件”页面选择“安装本地插件 / bundle”，指向本目录或 tarball。安装后确认 `dsh-effort-keeper` 出现在插件列表中。
+在 DSH 的“插件”页面选择“添加插件 → 安装第三方插件”，指向本目录或 tarball。安装后确认 `dsh-effort-keeper` 出现在插件列表中。
 
 ### 4.4 启动与验证
 
