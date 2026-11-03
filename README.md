@@ -3,6 +3,7 @@
 [中文](README.md) | [English](README.en.md)
 
 [![CI](https://github.com/ChimeSky/dsh-effort-keeper/actions/workflows/ci.yml/badge.svg)](https://github.com/ChimeSky/dsh-effort-keeper/actions/workflows/ci.yml)
+[![awesome · DSH plugin](https://awesome-dsh-plugin.com/badge.svg)](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![DSH plugin](https://img.shields.io/badge/dsh-plugin-8A2BE2)](https://github.com/topics/dsh-plugin)
 
